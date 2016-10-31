@@ -1,0 +1,21 @@
+drupal_subt_:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for the drupal_subt_ theme'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the drupal_subt_.libraries.yml file.'
+    scss: 
+      style/css/drupal_subt_.css: 'style/scss/drupal_subt_.scss'
+  version: VERSION
+  js:
+    js/drupal_subt_.js: {}
+  css:
+    theme:
+      style/css/drupal_subt_.css: {}
+    layout: 
+      #style/css/layout/some-layout-file.css: {}
+    component:
+      #style/css/components/some-component.css: {}
+  dependencies:
+    - core/jquery
+    

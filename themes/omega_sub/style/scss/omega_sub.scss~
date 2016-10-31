@@ -1,0 +1,27 @@
+#block-omega-sub-main-menu {
+  float: right;
+  font-size: 20px;
+  font-style: italic;
+  marging: 30px;
+  color: white;
+}
+ node/3  {
+color: white;
+}
+
+#search-block-form  {
+  float: right;
+  //padding-bottom: 2cm;  
+}
+
+.visually-hidden focusable  {
+bacground-image: '/var/www/drupal8/themes/omega_sub/__Spring_Spring_leaves_of_birch_103916_.jpg'
+}
+
+header {
+    background-image: url(/bg2.jpg); /* Путь к фоновому изображению */
+    overflow: hidden;
+  //  background-color: #c7b39b; /* Цвет фона */
+   }
+
+
